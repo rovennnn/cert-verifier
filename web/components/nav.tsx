@@ -5,9 +5,9 @@ export function Nav() {
     <header className="border-b border-ink/15">
       <div className="mx-auto flex max-w-3xl items-center justify-between px-6 py-5">
         <Link href="/" className="flex items-center gap-3">
-          <span className="wax-seal font-display text-lg">CR</span>
+          <span className="wax-seal font-display text-lg">SM</span>
           <span className="font-display text-lg font-semibold tracking-tight">
-            Certificate Registry
+            Sealmark
           </span>
         </Link>
         <nav className="flex gap-5 font-mono text-xs uppercase tracking-wide text-ink/70">
