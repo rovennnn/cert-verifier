@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/fraunces/500.css";
+@import "@fontsource/fraunces/600.css";
+@import "@fontsource/fraunces/600-italic.css";
+@import "@fontsource/work-sans/400.css";
+@import "@fontsource/work-sans/500.css";
+@import "@fontsource/work-sans/600.css";
+@import "@fontsource/space-mono/400.css";
+@import "@fontsource/space-mono/700.css";
+
+:root {
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #f5efe4;
+  color: #1b1712;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(27, 23, 18, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+::selection {
+  background: #7a1f2b;
+  color: #f5efe4;
+}
+
+/* A seal-style badge used for the verified state */
+.wax-seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 9999px;
+  background: #7a1f2b;
+  color: #f5efe4;
+  border: 2px solid #5e1520;
+  box-shadow: 0 2px 0 rgba(27, 23, 18, 0.25);
+}
+
+.paper-card {
+  background: #efe7d6;
+  border: 1px solid rgba(27, 23, 18, 0.16);
+  box-shadow: 3px 3px 0 rgba(27, 23, 18, 0.08);
+}
+
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  border: 1px solid rgba(27, 23, 18, 0.28);
+  padding: 0.15rem 0.5rem;
+  color: #1b1712;
+}
