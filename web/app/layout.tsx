@@ -3,11 +3,11 @@ import "./globals.css";
 import { Nav } from "@/components/nav";
 
 export const metadata: Metadata = {
-  title: "Certificate Registry — On-Chain Verification",
+  title: "Sealmark — On-Chain Verification",
   description:
     "Register a document's hash on-chain and let anyone verify it's authentic and untampered, without trusting a central database.",
   openGraph: {
-    title: "Certificate Registry — On-Chain Verification",
+    title: "Sealmark — On-Chain Verification",
     description:
       "Register a document's hash on-chain and let anyone verify it's authentic and untampered, without trusting a central database.",
     type: "website",
